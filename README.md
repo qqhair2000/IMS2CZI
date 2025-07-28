@@ -29,6 +29,19 @@ Then select the folder containing `.ims` files. Converted `.czi` files will be s
 - Python 3.8+
 - `numpy`, `h5py`, `imaris-ims-file-reader`, `pylibCZIrw`
 
-## License
 
-MIT License
+## 📄 License
+
+This project is licensed under the **Apache License 2.0**. See [LICENSE](./LICENSE) for full text.
+
+### Included / Invoked Dependencies
+
+This tool invokes but does not bundle or modify the following third-party libraries:
+
+| Dependency                  | License                                     | Purpose                                                        |
+|----------------------------|---------------------------------------------|----------------------------------------------------------------|
+| `imaris-ims-file-reader`   | MIT License                                 | To read `.ims` files from Imaris format.                       |
+| `pylibCZIrw`               | ZEISS PyLibCZIrw License (proprietary)      | To write `.czi` files in a Zeiss-compatible format.            |
+| `numpy`, `h5py`            | BSD-style / MIT License                     | For numerical operations and HDF5 reading.                     |
+
+> Note: These dependencies are installed via pip and are not modified or bundled with this repository.
