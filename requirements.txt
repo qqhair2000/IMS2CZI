@@ -1,0 +1,4 @@
+numpy
+h5py
+imaris-ims-file-reader
+pylibCZIrw
