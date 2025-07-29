@@ -22,9 +22,9 @@ It retains:
 
 
 ## Features
-- ✅ Batch convert `.ims` to `.czi`
-- ✅ Retains channel names and colors
-- ✅ Auto-detects voxel sizes from geometry metadata
+- ✅ Batch convert `.ims` to `.czi` 支援 batch 處理 `.ims`
+- ✅ Retains channel names and colors 保留通道名稱與顏色
+- ✅ Auto-detects voxel sizes from geometry metadata 保留像素大小
 - ✅ Simple GUI folder selector
 
 ## Installation
