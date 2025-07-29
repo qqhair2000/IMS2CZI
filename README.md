@@ -54,7 +54,7 @@ Then select the folder containing `.ims` files. Converted `.czi` files will be s
   
 ## 📦 Windows Executable (.exe)
 
-For users who don't have Python installed, a standalone executable is available under the [Releases](https://github.com/yourname/ims2czi/releases) page.
+For users who don't have Python installed, a standalone executable is available under the [Releases](https://github.com/qqhair2000/ims2czi/releases) page.
 
 ### How to use:
 1. Download `ims2czi.exe` from the **Assets** section of the latest release.
