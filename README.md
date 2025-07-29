@@ -11,7 +11,7 @@
 ## Installation
 
 ```bash
-git clone https://github.com/your-username/ims2czi.git
+git clone https://github.com/qqhair2000/ims2czi.git
 cd ims2czi
 pip install -r requirements.txt
 ```
