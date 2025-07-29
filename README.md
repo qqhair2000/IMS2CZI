@@ -19,7 +19,7 @@ pip install -r requirements.txt
 ## Usage
 
 ```bash
-python ims2czi.py
+python ims2czi_name_COLOR-2e.py
 ```
 
 Then select the folder containing `.ims` files. Converted `.czi` files will be saved in the same folder.
