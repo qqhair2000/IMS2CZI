@@ -4,7 +4,7 @@
 
 ## 🧾 Purpose / 使用目的
 
-This script converts `.ims` files (exported by Imaris, often from Dragonfly spinning disk confocal microscopes) into Zeiss `.czi` format for compatibility with downstream analysis software.
+This script converts `.ims` files (exported by Imaris, often from Dragonfly spinning disk confocal microscopes) into Zeiss `.czi` format, for compatibility with downstream analysis software such as roGFP analysis tools.
 
 It retains:
 - Channel names
@@ -27,6 +27,7 @@ It retains:
 - ✅ Auto-detects voxel sizes from geometry metadata 保留像素大小
 - ✅ Simple GUI folder selector
 
+
 ## Installation
 
 ```bash
@@ -34,6 +35,7 @@ git clone https://github.com/qqhair2000/ims2czi.git
 cd ims2czi
 pip install -r requirements.txt
 ```
+
 
 ## Usage
 
@@ -43,6 +45,13 @@ python ims2czi_name_COLOR-2e.py
 
 Then select the folder containing `.ims` files. Converted `.czi` files will be saved in the same folder.
 
+
+## Requirements
+
+- Python 3.8+
+- `numpy`, `h5py`, `imaris-ims-file-reader`, `pylibCZIrw`
+
+  
 ## 📦 Windows Executable (.exe)
 
 For users who don't have Python installed, a standalone executable is available under the [Releases](https://github.com/yourname/ims2czi/releases) page.
@@ -56,15 +65,10 @@ For users who don't have Python installed, a standalone executable is available 
 > ⚠️ Note: The `.exe` file is large (~70 MB) because it includes all Python dependencies.
 
 
-## Requirements
-
-- Python 3.8+
-- `numpy`, `h5py`, `imaris-ims-file-reader`, `pylibCZIrw`
-
-
 ## 📄 License
 
 This project is licensed under the **Apache License 2.0**. See [LICENSE](./LICENSE) for full text.
+
 
 ### Included / Invoked Dependencies
 
@@ -77,3 +81,10 @@ This tool invokes but does not bundle or modify the following third-party librar
 | `numpy`, `h5py`            | BSD-style / MIT License                     | For numerical operations and HDF5 reading.                     |
 
 > Note: These dependencies are installed via pip and are not modified or bundled with this repository.
+
+
+## 🔧 Future Work
+
+- Direct export from `.ims` to `.lsm` format (currently not supported by open tools)
+- GUI interface for easier use
+  
