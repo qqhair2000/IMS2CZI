@@ -43,6 +43,19 @@ python ims2czi_name_COLOR-2e.py
 
 Then select the folder containing `.ims` files. Converted `.czi` files will be saved in the same folder.
 
+## 📦 Windows Executable (.exe)
+
+For users who don't have Python installed, a standalone executable is available under the [Releases](https://github.com/yourname/ims2czi/releases) page.
+
+### How to use:
+1. Download `ims2czi.exe` from the **Assets** section of the latest release.
+2. Double-click to launch a file selection dialog.
+3. Choose the folder containing `.ims` files.
+4. The tool will batch convert all `.ims` files in that folder to `.czi`.
+
+> ⚠️ Note: The `.exe` file is large (~70 MB) because it includes all Python dependencies.
+
+
 ## Requirements
 
 - Python 3.8+
