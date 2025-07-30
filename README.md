@@ -1,4 +1,5 @@
 # ims2czi: Batch Convert `.ims` to `.czi`
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.16593878.svg)](https://doi.org/10.5281/zenodo.16593878)
 
 🧬 A simple Python tool to **batch convert Imaris `.ims` files** (from Dragonfly spinning disk microscope) into **Zeiss `.czi` format**, preserving channel names and colors.
 
@@ -88,3 +89,8 @@ This tool invokes but does not bundle or modify the following third-party librar
 - Direct export from `.ims` to `.lsm` format (currently not supported by open tools)
 - GUI interface for easier use
   
+## 📘 Citation
+
+If you use this tool in your research, please cite:
+
+Jiying Huang. (2025). ims2czi: Convert Imaris (.ims) to Zeiss (.czi) format (v1.0.0). Zenodo. https://doi.org/10.5281/zenodo.16593878
